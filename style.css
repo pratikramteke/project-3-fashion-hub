@@ -1,0 +1,108 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+
+.body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  font-family: "Orbitron", sans-serif;
+  margin: 50px 110px;
+  font-size: 20px;
+}
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list {
+  list-style-type: none;
+  display: flex;
+}
+.list-item {
+  margin: 0 30px;
+  font-weight: 500;
+}
+.list-item:first-child {
+  text-decoration: underline;
+  font-weight: bold;
+}
+.button-group {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-button {
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 8px;
+  width: 150px;
+  font-size: 25px;
+  color: gray;
+  margin-left: 10px;
+}
+.square {
+  position: absolute;
+  left: 220px;
+  top: 420px;
+}
+.hero-container > span:nth-child(2) {
+  position: absolute;
+  left: 1350px;
+  top: 200px;
+}
+.hero-container > span:nth-child(3) {
+  position: absolute;
+  left: 700px;
+  top: 740px;
+}
+.globe {
+  position: absolute;
+  left: 840px;
+  top: 160px;
+}
+.hero-container div > img {
+  position: absolute;
+  top: 215px;
+  left: 110px;
+  width: 450px;
+}
+.hero-container-right {
+  position: absolute;
+  left: 700px;
+  top: 300px;
+  text-align: center;
+}
+.hero-heading {
+  font-size: 50px;
+}
+.hero-description {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  width: 600px;
+  color: gray;
+  padding-bottom: 90px;
+}
+.button-email {
+  border: 2px solid black;
+  background-color: white;
+  font-family: "Orbitron", sans-serif;
+  width: 200px;
+  font-size: 20px;
+  border-radius: 8px;
+}
+.button-join {
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  border-radius: 8px;
+  width: 120px;
+}
+.contact-heading {
+  padding-top: 80px;
+  color: gray;
+  font-family: "Poppins", sans-serif;
+}
+.icons span {
+  padding: 10px;
+}
